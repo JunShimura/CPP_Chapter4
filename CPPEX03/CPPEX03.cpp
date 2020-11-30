@@ -2,11 +2,16 @@
 using namespace std;
 #include "chapter4.h"
 #include "getObesity.h"
+double height;	// 身長
+double weight;	// 体重
+double bmi;		// BMI
+int a = 1;	// グローバル
 
 int main() {
   double height;	// 身長
   double weight;	// 体重
   double bmi;		// BMI
+  int b = 2;		//ローカル
 
   // キー入力をheightに格納する
   cout << "身長（cm）を入力してください：";
